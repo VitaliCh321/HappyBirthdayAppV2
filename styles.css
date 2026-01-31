@@ -1,47 +1,50 @@
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .heading {
-    color: purple;
-    font-size: 48px;
+  color: purple;
+  font-size: 48px;
 }
 
 .input {
-    width: 300px;
-    height: 40px;
+  width: 300px;
+  font-size: 30px;
+  padding: 10px;
+  height: 40px;
+  border-radius: 14px;
 }
 
-.confirm-button {
-    width: 200px;
-    height: 58px;
-    padding: 10px;
-    color: purple;
-    font-size: 30px;
-    background-color: white;
-    border-radius: 14px;
-    border-color: purple;
+.submit-button {
+  width: 200px;
+  height: 58px;
+  padding: 10px;
+  color: purple;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 14px;
+  border-color: purple;
 }
 
-.confirm-button:hover {
-    border-color: green;
+.submit-button:hover {
+  border-color: green;
 }
 
 /* .container {
