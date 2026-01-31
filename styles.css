@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.heading {
+    color: purple;
+    font-size: 48px;
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+}
+
+.confirm-button {
+    width: 200px;
+    height: 58px;
+    padding: 10px;
+    color: purple;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 14px;
+    border-color: purple;
+}
+
+.confirm-button:hover {
+    border-color: green;
+}
+
+/* .container {
+    
+} */
